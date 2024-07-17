@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+#inline{
+  display: inline-block;
+  padding-right: 30px;
+}
+#rock-button {
+  background-image: url('Rock.png'); 
+}
+
+#paper-button {
+  background-image: url('Paper.png');
+}
+
+#scissors-button {
+  background-image: url('Scissors.png'); 
+}
+
+.reset {
+  color: #383838;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #fff;
+  width: 100px;
+  height: 40px;
+}
+
+button {
+  color: black;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+.reset:hover {
+  background-color: #c2c2c2;
+  color: #fff;
+}
+#result, #summary {
+  margin-top: 20px;
+  font-size: 18px;
+}
