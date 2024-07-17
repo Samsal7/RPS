@@ -3,7 +3,7 @@ async function playGame(userMove) {
   var summary = document.getElementById("summary");
 
   try {
-    var response = await fetch("https://688c9cfb-b4f8-444f-80ac-ec2f6b978ae2-00-7b1z8v1ngyhh.riker.replit.dev/play", {
+    var response = await fetch("https://rps-1-pq2i.onrender.com/play", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -34,7 +34,7 @@ async function resetGame() {
   var result = document.getElementById("result");
 
   try {
-    var response = await fetch("https://688c9cfb-b4f8-444f-80ac-ec2f6b978ae2-00-7b1z8v1ngyhh.riker.replit.dev/reset", {
+    var response = await fetch("https://rps-1-pq2i.onrender.com/reset", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
